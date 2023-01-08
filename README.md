@@ -1,2 +1,3 @@
-# nova
-simple Automation script to  enum subdomains and find xss in them
+#read me once
+simple Automation script to  enum subdomains and find xss in them i used nambu,httpx,subfider,etc...
+please make sure you install them 
