@@ -1,15 +1,9 @@
 #!/usr/bin/env bash
 
 # Set target domain
-echo "                 
- | \ | |                
- |  \| | _____   ____ _ 
- | . ` |/ _ \ \ / / _` |
- | |\  | (_) \ V / (_| |
- |_| \_|\___/ \_/ \__,_|
- 
- simple Automation script to  enum subdomains and find xss in them and thanks Chat gpt 
- made by @Ashw4 Team: @HVC "
+sudo apt-get install figlet
+figlet -s NOVA
+echo "simple Automation script to  enum subdomains and find xss in them and thanks Chat gpt made by @Ashw4 Team: @HVC "
 echo "please make sure install nabbu ,httpx,nuclei,dirsearch,subfinder"
 echo "Please Enter Your Target Domain "
 read target_domain
