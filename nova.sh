@@ -25,7 +25,7 @@ done
 
 # Use Dirsearch to scan for directories on found subdomains
 cat subdomains.txt | while read subdomain; do
-    dirsearch -u $subdomain -e * -x 400,401,402,403,405 -w wordlists/common.txt
+    dirsearch -u $subdomain -e * -x 400,401,402,403,405 -w /usr/share/dirb/wordlists/common.txt
 done
 
 # Use Naabu to scan for open ports on found subdomains
