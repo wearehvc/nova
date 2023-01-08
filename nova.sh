@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # Set target domain
-echo "
-  _   _                 
+echo "                 
  | \ | |                
  |  \| | _____   ____ _ 
  | . ` |/ _ \ \ / / _` |
